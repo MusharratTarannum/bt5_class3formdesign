@@ -1,0 +1,24 @@
+.box{
+	height: 100px;
+	background-color: teal;
+	margin-bottom: 10px;
+	text-align: center;
+	color: white;
+}
+.box2{
+	height: 200px;
+	background-color: gray;
+	margin-bottom: 10px;
+	text-align: left;
+	color: white;
+}
+.box3{
+	height: 80px;
+	background-color: lightblue;
+	margin-bottom: 10px;
+	text-align: center;
+	color: black;
+}
+.form-range{
+	color: black;
+}

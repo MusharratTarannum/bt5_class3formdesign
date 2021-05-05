@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>BT5</title>
+  </head>
+  <body>
+  <section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+      <div class="box">Please fill up the form</div> 
+        <div class="row">
+        <div class="col-lg-6">
+
+      <!--form start-->
+      <form>
+        <div class="mb-3">
+        <div class="input-group">
+          <span class="input-groupi-text"> First & Last Name: </span>
+          <input type="text" area-label="First Name" class="form-control">
+          <input type="text" area-label="Last Name" class="form-control">
+        </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="user_email" class="form-label"> Email Address</label>
+          <input type="email" class="form-control user_email" id="user_email" name="user_email" placeholder="type your email address here" required>
+        </div>
+        
+        <div class="mb-3">
+          <label for="user_password" class="form-label">Password</label>
+          <input type="password" class="form-control" id="user_password" name="user_password" placeholder="type your password" required>
+          <div class="form-text">Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters.</div>
+        </div>
+         
+        <legend>Disable Input Sample</legend>
+        <div class="mb-3">
+          <label for="DisableInputText" class="form-label">Disable Input</label>
+          <input type="text" id="DisableInputText"class="form-control" name="DisableInputText" placeholder="DisableInputText" disabled>
+        </div>
+        
+      
+        <div class="mb-3">
+          <label for="formfile" class="form-label"> Default Form File</label>
+          <input type="file" class="form-control" name="formfile" id="formfile">
+        </div>
+
+        <div class="mb-3">
+          <label for="formFileMultiple" class="form-label">Multiple Form File</label>
+          <input class="form-control" type="file" name="formFileMultiple" id="formFileMultiple" multiple>
+        </div>
+
+        <div class="mb-3 col-sm-4">
+          <label for="colorinput" class="form-label"> Color Picker </label>
+          <input type="color" class=" form-control form control color" id="colorinput" value="#8CE750">
+        </div>
+
+        <div class="mb-3">
+          <label for="DataList" class="form-label"> Data List - Thana name</label>
+          <input type="DataList" class="form-control" list="datalistoptions" name="DataList" placeholder="Choose your thana name" required="">
+          <datalist id="datalistoptions">
+            <option value="Shahbag"></option>
+            <option value="Ramna"></option>
+            <option value="Banani"></option>
+            <option value="Tejgaon"></option>
+            <option value="Gulshan"></option>
+            <option value="Badda"></option>  
+            <option> Dhanmondi</option>  
+            <option> Motijheel</option> 
+          </datalist>
+        </div>
+
+        <div class="mb-3">
+          <label for="Menu Select" class="form-label"> Data List Select - Birth Month</label>
+          <select class="form-select">
+          <option selected> Choose Your Birth Month </option>
+            <option>Jan</option>
+            <option>Feb</option>
+            <option>Mar</option>
+            <option>Apr</option>
+            <option>May</option>
+            <option>Jun</option>    
+            <option>Jul</option>
+            <option>Aug</option>
+            <option>Sep</option>
+            <option>Oct</option>
+            <option>Nov</option>
+            <option>Dec</option> 
+          </select>
+        </div>
+
+        <div class="mb-3">
+          <label for="checkhuman" class="form-label"> Are you human? </label>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="flexcheckdefault1" name="flexcheckdefault1">
+            <label class="form-check-label" for="checkyes"> Yes </label>
+            </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="flexcheckdefault2" name="lexcheckdefault2">
+            <label class="form-check-label" for="checkno"> No </label>
+            </div>
+        </div>
+
+        <div class="mb-3">
+          
+          <label for="checkhuman" class="form-label"> Are you human? </label>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" id="flexRadioDefault" name="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadiodefault1"> Yes </label>
+          </div>
+
+          <div class="form-check">
+            <input class="form-check-input" type="radio" id="flexRadioDefault" name="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2"> No </label>
+          </div>
+
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="radio" id="flexSwitchRadioDefault">
+            <label class="form-check-label" for="flexSwitchRadioDefault2"> No </label>
+          </div>
+        
+        <div class="mb-3 col-lg-6">
+          <label for="customrange1" class="form-label">Range</label>
+          <input type="Range" class="form-range" id="customrange1">
+        </div>
+
+        <div class="mb-3 col-lg-6">
+          <div class="form-floating">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextArea"></textarea>
+          <label for="floatingTextArea">Comments</label>   
+          </div>
+        </div>
+
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="user_checkbox" name="user_checkbox" required>
+          <label for="user_checkbox" class="form-check-label"> click check box before submit </label>
+        </div>
+        <button type="submit" class="btn btn-primary"> Submit </button>
+
+      </div>
+
+  <!--form end-->
+
+    <!-- JS Links -->
+    
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+   <script src="js/script.js"></script>
+   <script> 
+   
+</script>
+
+  </body>
+</html>
